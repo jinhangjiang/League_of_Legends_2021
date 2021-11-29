@@ -33,7 +33,7 @@ num = int(0)
 start = time.time()
 
 #larger than 1 will lead to a periodical collecting
-while num < 48:
+while True:
     #update this iteration's info
     num += 1
     print("Round",num,"started at", datetime.datetime.now(pytz.timezone("America/Chicago")))
@@ -99,7 +99,7 @@ while num < 48:
     print("Round",num,"completed at", datetime.datetime.now(pytz.timezone("America/Chicago")))
     print("Time Lapses:",str(datetime.timedelta(seconds=sec_i)))
     print("\n")
-    time.sleep(900)
+    time.sleep(1800)
     
 
 
