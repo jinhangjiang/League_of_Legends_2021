@@ -14,7 +14,7 @@ import os
 
 #change dir
 print(os.getcwd())
-os.chdir('C:/Users/jinha/OneDrive/GitHub\League_of_Legends_2021/Data/Text')
+os.chdir('D:/1Github/League_of_Legends_2021/Data/Text')
 print(os.getcwd())
 
 #connect to reddit
